@@ -1,0 +1,5 @@
+h = int(input())
+u = int(input())
+d = int(input())
+res = ((h - u - 1) // (u - d) + 2)
+print(round(res))
